@@ -1,6 +1,7 @@
 ## Step 1
 
 cd $HOME
+pkg install wget -y
 pkg install proot-distro -y
 proot-distro install debian
 
