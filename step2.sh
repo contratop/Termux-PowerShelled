@@ -20,3 +20,4 @@ chmod +x /opt/microsoft/powershell/7/pwsh
 ln -s /opt/microsoft/powershell/7/pwsh /usr/bin/pwsh
 
 rm step2.sh
+rm powershell.tar.gz
