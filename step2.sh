@@ -11,10 +11,12 @@ curl -L -o powershell.tar.gz "https://github.com/PowerShell/PowerShell/releases/
 mkdir -p /opt/microsoft/powershell/7
 
 # Expand powershell to the target folder
-tar zxf /tmp/powershell.tar.gz -C /opt/microsoft/powershell/7
+tar zxf powershell.tar.gz -C /opt/microsoft/powershell/7
 
 # Set execute permissions
 chmod +x /opt/microsoft/powershell/7/pwsh
 
 # Create the symbolic link that points to pwsh
 ln -s /opt/microsoft/powershell/7/pwsh /usr/bin/pwsh
+
+rm step2.sh

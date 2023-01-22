@@ -22,3 +22,5 @@ else
     echo "Omitiendo inicio de sesion automatico"
     exit
 fi
+
+rm step1.sh
